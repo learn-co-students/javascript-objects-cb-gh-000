@@ -14,4 +14,9 @@ function removeFromPlaylist(playlist, artistName) {
   // Modify object.
   delete playlist[artistName]
   return playlist
+
+  // Copies and modify the copy. (not intended for this lab)
+  // let newPlaylist = Object.assign({}, playlist)
+  // delete newPlaylist[artistName]
+  // return newPlaylist
 }
